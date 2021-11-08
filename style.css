@@ -1,0 +1,235 @@
+@media screen and (min-width: 481px){
+   .parteCelular{
+      display: none;
+   }
+   main,body{
+      height: 100%;
+      font-family: "Roboto", sans-serif;
+      -webkit-font-smoothing: antialiased;
+   
+       position: relative;
+       width: 1440px;
+       height: 820px;
+       background: #121214;
+    }
+   
+    body{
+      display:grid;
+      place-items:center;
+      }
+   
+    .degrade1{
+       position: absolute;
+       width: 1000px;
+       height: 500px;
+       left: 37em;
+       top: 0px;
+       opacity: 70%;
+    }
+    .degrade2{
+       position: absolute;
+       width: 1000px;
+       height: 500px;
+       left: 15em;
+       top: 0px;
+       opacity: 70%;
+       
+    }
+   
+    .apoioCaixa{
+       position: cover;
+       width: 359px;
+       height: 665px;
+       left: 544px;
+       top: -360px;    
+    }
+   
+    .crachar{
+       position: absolute;
+       width: 358px;
+       height: 540px;
+       left: 750px;
+       top: 140px;
+   
+       background: #202024;
+    }
+   
+    .faixa{
+       position: absolute;
+       width: 64px;
+       height: 158px;
+       left: 900px;
+       top: 0px;
+    }
+   
+    .quebra{
+       position: absolute;
+       width: 80px;
+       height: 8px;
+       left: 892px;
+       top: 156px;
+    }
+   
+    .mask{
+       position: absolute;
+    }
+   
+    .avatar {
+       width: 10rem;
+       margin: 3.5rem auto 0;
+       position: relative;
+     }
+     
+     .avatar span {
+       position: absolute;
+       top: -10px;
+       z-index: 1;
+     }
+     
+     .avatar > img {
+       width: 10rem;
+       height: 11.5rem;
+       object-fit: cover;
+       clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+     }
+   
+     .name{
+      font-size: 24px;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 30px;
+      text-align: center;
+   
+      color: #E1E1E6;
+     }
+   
+     .GitHub{
+        text-align: center;
+        padding-top:10px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+     }
+   
+     .GitHub a{
+        text-decoration: none;
+     }
+   
+     .texto p{
+        font-family: "Roboto";
+         position: absolute;
+         text-align: center;
+         height: 26px;
+         color: #E1E1E6;
+         padding-top: 26px;
+         font-style: normal;
+     }
+   ul{
+      position: absolute;
+      bottom: -170px;
+      left: 55px;
+   }
+   
+}
+
+@media screen and (max-width: 480px){
+ .partePC{
+    display: none;
+ }
+
+ * {
+   margin: 0;
+ }  
+ .tituloNome{
+       font-size: 1.5rem;
+       font-weight: bold;
+   }
+   .parteCelular{
+       --black: hsl(240, 6%, 13%);
+       --grey: hsl(240, 9%, 89%);
+
+       height: 100%;
+       font-family: "Roboto", sans-serif;
+       -webkit-font-smoothing: antialiased;
+       
+   }
+   .parteCelular{
+       display:grid;
+       place-items:center;
+       
+       }
+   .gitHub {
+       text-decoration: none;
+   }
+   .parteCelular {
+       background: url(Imagens/background.svg) no-repeat center/cover;
+       width: 100vw;
+       max-height: 812px;
+       max-width: 480px;
+       height: 100vh;
+   }
+
+   .container {
+      max-width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: var(--grey);
+  }
+ .avatar {
+ width: 10rem;
+ margin: 11.5rem auto 0;
+
+ position: relative;
+ }
+
+ .avatar {
+  width: 10rem;
+  margin: 5rem auto 0;
+  position: relative;
+ }
+
+ .avatar span {
+  position: absolute;
+  top: -15px;
+  z-index: 1;
+ }
+
+ .avatar > img {
+  width: 10rem;
+  height: 11.5rem;
+  object-fit: cover;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+   .tituloNome {
+       font-size: 1.5rem;
+       margin-top: 1.5rem;
+       color:var (--grey);
+   }
+   .gitHub {
+       color:var (--grey);
+       text-decoration: none;
+       display: flex;
+
+       margin-top: 1.5rem;
+       gap: 0.75rem;
+
+       justify-content: center;
+       align-items: center;
+   }
+   .bio{
+       margin-top: 2rem;
+       line-height: 20px;
+   }
+   .instagram{
+       margin-top: 3rem;
+       list-style: none;
+       padding: 0;
+
+       display: flex;
+       gap: 0.5rem;
+        
+       justify-content: center;
+   }
+}
