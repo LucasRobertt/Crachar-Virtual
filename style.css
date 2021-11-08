@@ -165,7 +165,7 @@
    .parteCelular {
        background: url(Imagens/background.svg) no-repeat center/cover;
        width: 100vw;
-       max-height: 812px;
+       max-height: auto;
        max-width: 480px;
        height: 100vh;
    }
