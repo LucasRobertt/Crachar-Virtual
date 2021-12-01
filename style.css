@@ -1,125 +1,119 @@
-@media screen and (min-width: 1080px){
-   .parteCelular{
-      display: none;
-   }
-   main,body{
-      height: 100%;
-      font-family: "Roboto", sans-serif;
-      -webkit-font-smoothing: antialiased;
-   
-       position: relative;
-       width: 1440px;
-       height: 820px;
-       background: #121214;
-    }
-   
-    body{
-      display:grid;
-      place-items:center;
-      }
-   
-    .degrade1{
-       position: absolute;
-       width: 1000px;
-       height: 500px;
-       left: 37em;
-       top: 0px;
-       opacity: 70%;
-       cursor: default;
-    }
-    .degrade2{
-       position: absolute;
-       width: 1000px;
-       height: 500px;
-       left: 15em;
-       top: 0px;
-       opacity: 70%;
-       cursor: default;
-       
-    }
-   
-    .apoioCaixa{
-       position: cover;
-       width: 359px;
-       height: 665px;
-       left: 544px;
-       top: -360px;    
-    }
-   
-    .crachar{
-       position: absolute;
-       width: 358px;
-       height: 540px;
-       left: 750px;
-       top: 140px;
-   
-       background: #202024;
-    }
-   
-    .faixa{
-       position: absolute;
-       width: 64px;
-       height: 158px;
-       left: 900px;
-       top: 0px;
-    }
-   
-    .quebra{
-       position: absolute;
-       width: 80px;
-       height: 8px;
-       left: 892px;
-       top: 156px;
-    }
-   
-    .mask{
-       position: absolute;
-    }
-   
-    .avatar {
-       width: 10rem;
-       margin: 3.5rem auto 0;
-       position: relative;
-     }
-     
-     .avatar span {
-       position: absolute;
-       top: -10px;
-       z-index: 1;
-     }
-     
-     .avatar > img {
-       width: 10rem;
-       height: 11.5rem;
-       object-fit: cover;
-       clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-     }
-   
-     .name{
-      font-size: 24px;
-      font-style: normal;
-      font-weight: bold;
-      line-height: 30px;
-      text-align: center;
-   
-      color: #E1E1E6;
+ @media screen and (min-width: 480px){
+ .parteCelular{
+   display: none;
+ }
+ main,body{
+   /* height: 100%; */
+   font-family: "Roboto", sans-serif;
+   -webkit-font-smoothing: antialiased;
+
+   position: relative;
+   width: 100%;
+   height: 100%;
+   background: #121214;
+ }
+  
+   .degrade1{
+      position: absolute;
+      width: 1000px;
+      height: 500px;
+      left: 37em;
+      top: 0px;
+      opacity: 70%;
       cursor: default;
-     }
+   }
+   .degrade2{
+      position: absolute;
+      width: 1000px;
+      height: 500px;
+      left: 15em;
+      top: 0px;
+      opacity: 70%;
+      cursor: default;
+   }
+
+   /* .apoioCaixa{
+      position: cover;
+      width: 359px;
+      height: 665px;
+      left: 544px;
+      top: -360px;    
+   } */
+
+   .crachar{
+      position: absolute;
+      width: 358px;
+      height: 540px;
+      left: 750px;
+      top: 140px;
+
+      background: #202024;
+   }
+
+   .faixa{
+      position: absolute;
+      width: 64px;
+      height: 158px;
+      left: 900px;
+      top: 0px;
+   }
+
+   .quebra{
+      position: absolute;
+      width: 80px;
+      height: 8px;
+      left: 892px;
+      top: 156px;
+   }
+
+   .mask{
+      position: absolute;
+   }
+
+   .avatar {
+      width: 10rem;
+      margin: 3.5rem auto 0;
+      position: relative;
+   }
    
-     .GitHub{
-        text-align: center;
-        padding-top:10px;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 26px;
-     }
+   .avatar span {
+      position: absolute;
+      top: -10px;
+      z-index: 1;
+   }
    
-     .GitHub a{
-        text-decoration: none;
-     }
+   .avatar > img {
+      width: 10rem;
+      height: 11.5rem;
+      object-fit: cover;
+      clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+   }
+
+   .name{
+   font-size: 24px;
+   font-style: normal;
+   font-weight: bold;
+   line-height: 30px;
+   text-align: center;
+
+   color: #E1E1E6;
+   cursor: default;
+   }
+
+   .GitHub{
+      text-align: center;
+      padding-top:10px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+   }
+
+   .GitHub a{
+      text-decoration: none;
+   }
    
-    .texto p{
+   .texto p{
       font-family: "Roboto";
       line-height: 20px;
       position: absolute;
@@ -131,15 +125,15 @@
       font-style: normal;
       cursor: default;
    }
-   ul{
-      position: absolute;
-      bottom: -180px;
-      left: 55px;
-   }
+ul{
+   position: absolute;
+   bottom: -180px;
+   left: 55px;
+}
    
 }
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 480px){
  .partePC{
     display: none;
  }
@@ -160,71 +154,63 @@
        -webkit-font-smoothing: antialiased;
        
    }
-
-   html{
-      position: relative;
-      background: rgba(32, 32, 36, 1);
-      z-index: -1;
-   }
-
    .parteCelular{
-       position: absolute;
        display:grid;
        place-items:center;
        
        }
-       .parteCelular {
-          background: url(Imagens/background.svg) no-repeat center/cover;
-          width: 100vw;
-          max-height: 1080px;
-          max-width: 1080px;
-          height: 100vh;
-         }
-         
-         .container {
-            max-width: 250px;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            color: var(--grey);
-         }
-         .avatar {
-            width: 10rem;
-            margin: 11.5rem auto 0;
-            
-            position: relative;
-         }
-         
-         .avatar {
-            width: 10rem;
-            margin: 5rem auto 0;
-            position: relative;
-         }
-         
-         .avatar span {
-            position: absolute;
-            top: -15px;
-            z-index: 1;
-         }
-         
-         .avatar > img {
-            width: 10rem;
-            height: 11.5rem;
-            object-fit: cover;
-            clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-         }
-         .tituloNome {
-            font-size: 1.5rem;
-            margin-top: 1.5rem;
-            color:var (--grey);
-         }
+   .parteCelular {
+       background: url(Imagens/background.svg) no-repeat center/cover;
+       width: 100vw;
+       max-height: auto;
+       max-width: 480px;
+       height: 100vh;
+   }
 
-         .gitHub {
-            color:var (--grey);
+   .container {
+      max-width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: var(--grey);
+  }
+ .avatar {
+ width: 10rem;
+ margin: 11.5rem auto 0;
+
+ position: relative;
+ }
+
+ .avatar {
+  width: 10rem;
+  margin: 5rem auto 0;
+  position: relative;
+ }
+
+ .avatar span {
+  position: absolute;
+  top: -15px;
+  z-index: 1;
+ }
+
+ .avatar > img {
+  width: 10rem;
+  height: 11.5rem;
+  object-fit: cover;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+   .tituloNome {
+       font-size: 1.5rem;
+       margin-top: 1.5rem;
+       color:var (--grey);
+   }
+   .gitHub {
+       color:var (--grey);
        text-decoration: none;
        display: flex;
 
        margin-top: 1.5rem;
+       gap: 0.75rem;
 
        justify-content: center;
        align-items: center;
@@ -235,7 +221,6 @@
    }
    .instagram{
        margin-top: 1.5rem;
-       margin-bottom: 1.5rem;
        list-style: none;
        padding: 0;
 
