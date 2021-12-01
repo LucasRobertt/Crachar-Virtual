@@ -25,6 +25,7 @@
        left: 37em;
        top: 0px;
        opacity: 70%;
+       cursor: default;
     }
     .degrade2{
        position: absolute;
@@ -33,6 +34,7 @@
        left: 15em;
        top: 0px;
        opacity: 70%;
+       cursor: default;
        
     }
    
@@ -101,6 +103,7 @@
       text-align: center;
    
       color: #E1E1E6;
+      cursor: default;
      }
    
      .GitHub{
@@ -126,6 +129,7 @@
       color: #E1E1E6;
       padding-top:25px;
       font-style: normal;
+      cursor: default;
    }
    ul{
       position: absolute;
