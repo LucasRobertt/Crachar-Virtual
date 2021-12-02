@@ -1,4 +1,4 @@
- @media screen and (min-width: 480px){
+ @media screen and (min-width: 1080px){
  .parteCelular{
    display: none;
  }
@@ -133,7 +133,7 @@ ul{
    
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1080px){
  .partePC{
     display: none;
  }
@@ -141,6 +141,11 @@ ul{
  * {
    margin: 0;
  }  
+
+ html{
+    background: rgba(32, 32, 36, 1);
+ }
+
  .tituloNome{
        font-size: 1.5rem;
        font-weight: bold;
@@ -149,7 +154,6 @@ ul{
        --black: hsl(240, 6%, 13%);
        --grey: hsl(240, 9%, 89%);
 
-       height: 100%;
        font-family: "Roboto", sans-serif;
        -webkit-font-smoothing: antialiased;
        
@@ -157,13 +161,11 @@ ul{
    .parteCelular{
        display:grid;
        place-items:center;
-       
        }
    .parteCelular {
        background: url(Imagens/background.svg) no-repeat center/cover;
-       width: 100vw;
-       max-height: auto;
-       max-width: 480px;
+       width: 100%;
+       max-width: 1080px;
        height: 100vh;
    }
 
@@ -221,12 +223,12 @@ ul{
    }
    .instagram{
        margin-top: 1.5rem;
+       margin-bottom: 1.5rem;
        list-style: none;
        padding: 0;
 
        display: flex;
-       gap: 0.5rem;
-        
+
        justify-content: center;
    }
 }
